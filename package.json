@@ -1,0 +1,29 @@
+{
+  "name": "personalityanalysis",
+  "version": "1.0.0",
+  "description": "A web app for check your personality. It uses NodeJs/ExpressJs for backend technology.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "astrology",
+    "nodejs",
+    "expressjs",
+    "ephemeris"
+  ],
+  "author": "Seun Daniel Omatsola",
+  "license": "ISC",
+  "dependencies": {
+    "@goldenius/hades-js": "^2.1.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "zodiac-signs": "^1.1.0"
+  }
+}
