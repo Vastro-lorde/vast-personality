@@ -6,6 +6,7 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
+//Starting the database connection
 mongodb();
 
 app.use('/user', userRouter);
